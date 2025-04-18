@@ -40,7 +40,7 @@ def embed_and_store(text_chunks):
 
     return vectorstore
 
-# vectorstore_initializer.py
+# vectorstore_initializer
 from langchain_milvus import Milvus
 from langchain_ollama import OllamaEmbeddings
 

@@ -20,12 +20,6 @@ if uploaded_files:
         st.session_state["files_processed"] = True
     else:
         st.info("Files already processed and embedded.")
-    # with st.spinner("Processing files and generating embeddings..."):
-    #     docs = handle_file_upload(uploaded_files)
-
-    # handle_file_upload(uploaded_files)
-
-    # st.success("Files processed and embedded into vector database.")
 
     query = st.text_input("Ask your question:")
     btn = st.button("Ask")
