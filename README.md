@@ -5,7 +5,7 @@ This application is a Retrieval Augmented Generation (RAG) system that allows yo
 ## Features
 
 * **Document Upload:** Upload your documents (PDF, DOCX, TXT, CSV, XLSX, JSON).  Limit of 200MB per file.
-* **LLM Selection:** Choose from different LLMs (llama3.1, mistral-7b, mixtral-8x7b).
+* **LLM Selection:** Choose from different LLMs (llama3.1, mixtral-8x22b (upcoming...)).
 * **Question Answering:** Ask questions about your uploaded documents.
 * **Contextual Answers:** The LLM uses the content of your documents to provide relevant answers.
 * **Customizable Parameters:**
@@ -46,5 +46,8 @@ The application uses the following main dependencies:
 
 * Streamlit
 * LangChain
+* Milvus
+* Docling
+* Ollama
 * (And other libraries listed in `requirements.txt`)
 
