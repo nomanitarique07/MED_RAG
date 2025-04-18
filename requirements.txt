@@ -1,0 +1,11 @@
+streamlit
+PyPDF2
+sentence-transformers
+pymilvus
+langchain-chroma>=0.1.2
+langchain-text-splitters
+langchain
+langchain-community 
+faiss-cpu
+langchain_milvus
+langchain-ollama
